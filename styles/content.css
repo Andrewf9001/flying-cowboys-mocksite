@@ -1,0 +1,48 @@
+.hero-section-container {
+  background-image: url("../images/airplane-sunset.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 855px;
+}
+
+.hero-section-container .logo-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.body-mission-container {
+  background-image: url("https://static.wixstatic.com/media/6afa43_1e53462b6f0040038f957fcda94347c9~mv2.jpg/v1/fill/w_1041,h_541,al_c,q_85/6afa43_1e53462b6f0040038f957fcda94347c9~mv2.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 612px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* 
+.body-mission-container .mission-title {
+  font-family: "Old Standard TT", serif;
+  font-size: 50px;
+  text-transform: uppercase;
+} */
+
+.body-mission-container .mission-title h1 {
+  font-family: "Old Standard TT", serif;
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+.body-mission-container .mission-icon {
+  font-size: 50px;
+}
+
+.body-mission-container .mission-content {
+  margin-top: 40px;
+  width: 617px;
+  text-align: center;
+  font-size: 21px;
+}
